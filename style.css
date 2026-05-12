@@ -1,10 +1,10 @@
 :root {
     /* Palette de couleurs */
     --color-background: #484848;
-    --color-text: #7d7c7c;
-    --color-text-footer: #888;
-    --color-primary: #89682f;
-    --color-secondary: #724d27;
+    --color-text: #FFFF;
+    --color-text-footer: #FFFF;
+    --color-primary: #ffc869;
+    --color-secondary: #ed9337;
 }
 
 @font-face {
@@ -92,13 +92,13 @@ h2,h3 {
 
 h1,
 .title {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
     color: var(--color-primary);
 }
 
 h2,h3 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     color: var(--color-secondary);
     margin-top: 2rem;
 }
@@ -110,8 +110,8 @@ h2,h3 {
 p {
     max-width: 700px;
     margin: 1rem auto;
-    line-height: 1.0;
-    font-size: 11px;
+    line-height: 1.2;
+    font-size: 16px;
 }
 
 ul {
